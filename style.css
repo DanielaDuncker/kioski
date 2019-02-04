@@ -33,7 +33,7 @@ body{
 
 .header-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     padding: 10px;
     margin: -10px;
 }
@@ -144,3 +144,7 @@ body{
 }
 
 
+@media screen and (max-width: 736px)
+{
+  
+}
