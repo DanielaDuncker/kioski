@@ -5,38 +5,108 @@
 .header{background: red;}
 .logo1{background: blue;}
 .logo2{background: blue;}
+.nav{background: red;}
+.image1{background: blue;}
+.otsikko1{background: red;}
+.image2{background: blue;}
+.text{background: red;}
+.link{background: blue;}
+.otsikko2{background: red;}
+.image3{background: blue;}
+.image4{background: red;}
+.image5{background: blue;}
+.image6{background: red;}
+.footer{background: blue;}
 
 .grid-container{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-areas: auto;
+    background-color: green;
+    text-align: center;
+    margin: -8px;
 }
 
+body{
+    background-color: green;
+}
 
-
-
-/* .nav{background:green;}
-.image1{background:cyan;}
-.otsikko1{background:yellow;}
-.image2{background:pink;}
-.text{background:orange;}
-.otsikko2{background:violet;}
-.image3{background:darkblue;}
-.image4{background:brown;}
-.image5{background:lightcoral;}
-.footer{background:gray;} */
-
-/* .grid-container{
+.header-container{
     display: grid;
-    grid-area: 
-    'logo1 header logo2'
-    'nav nav nav'
-    '.image1.'
-    '.otsikko1.'
-    'image2 text.'
-    'otsikko2 otsikko2 otsikko2'
-    'image3 image4.'
-    'image5 image6.'
-    'footer footer footer';
-    grid-column: 
-} */
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image1{
+    margin: 10px;
+}
+
+.otsikko1{
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.tarjous-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: aquamarine;
+}
+.image2{
+    grid-row: 1/3;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+.text{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.link{
+    grid-column: 2/3;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.otsikko2{
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.uutuus-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    padding-top: 0px;
+}
+.image3{
+    text-align: right;
+    padding: 5px;
+}
+.image4{
+    text-align: left;
+    padding: 5px;
+}
+.image5{
+    text-align: right;
+    padding: 5px;
+}
+.image6{
+    text-align: left;
+    padding: 5px;
+}
+
+.footer{
+    padding: 10px;
+}
+
 
