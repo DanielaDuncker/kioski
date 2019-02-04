@@ -2,95 +2,41 @@
     box-sizing: border-box;
 }
 
-.logo1 { grid-area: header; }
-.logo2 { grid-area: header; }
-.header { grid-area: header; }
-.nav { grid-area: nav; }
-.image1 { grid-area: main; }
-.otsikko1 { grid-area: main; }
-.image2 { grid-area: main; }
-.text { grid-area: main; }
-.otsikko2 { grid-area: main; }
-.image3 { grid-area: main; }
-.image4 { grid-area: main; }
-.image5 { grid-area: main; }
-.image6 { grid-area: main; }
-.footer { grid-area: footer; }
+.header{background: red;}
+.logo1{background: blue;}
+.logo2{background: blue;}
 
-
-.grid-container {
+.grid-container{
     display: grid;
-    grid-template-areas:
+    grid-template-columns: 200px 200px 200px;
+}
+
+
+
+
+/* .nav{background:green;}
+.image1{background:cyan;}
+.otsikko1{background:yellow;}
+.image2{background:pink;}
+.text{background:orange;}
+.otsikko2{background:violet;}
+.image3{background:darkblue;}
+.image4{background:brown;}
+.image5{background:lightcoral;}
+.footer{background:gray;} */
+
+/* .grid-container{
+    display: grid;
+    grid-area: 
     'logo1 header logo2'
     'nav nav nav'
-    'image1 image1 image1'
-    'otsikko1 otsikko1 otsikko1'
-    'image2 image2 image2'
-    'text text text'
+    '.image1.'
+    '.otsikko1.'
+    'image2 text.'
     'otsikko2 otsikko2 otsikko2'
-    'image3 image3 image3'
-    'image4 image image4'
-    'image5 image5 image5'
-    'image6 image6 image6'
+    'image3 image4.'
+    'image5 image6.'
     'footer footer footer';
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    text-align: center;
-}
+    grid-column: 
+} */
 
-.logo1{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.header {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.logo2 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-.nav {
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
-.image1 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-.otsikko1 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-}
-.image2 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-}
-.text {
-    grid-column: 3/4;
-    grid-row: 5/6;
-}
-.otsikko2 {
-    grid-column: 1/4;
-    grid-row: 6/7;
-}
-.image3 {
-    grid-column: 1/2;
-    grid-row: 7/8;
-}
-.image4{
-    grid-column: 3/4;
-    grid-row: 7/8;
-}
-.image5 {
-    grid-column: 1/2;
-    grid-row: 8/9;
-}
-.image6{
-    grid-column: 3/4;
-    grid-row: 8/9;
-}
-.footer {
-    grid-column: 1/4;
-    grid-row: 9/10 
-}
