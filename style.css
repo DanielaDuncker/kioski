@@ -7,9 +7,9 @@
 .logo2{background: #cc8ed8;}
 .nav{background: #545454;}
 .image1{background: #8ed891;}
-.otsikko1{background: red;}
-.image2{background: blue;}
-.text{background: red;}
+.otsikko1{background: #cc8ed8;}
+.image2{background: #ffffff;}
+.text{background: #ffffff;}
 .link{background: #77b255;}
 .otsikko2{background: red;}
 .image3{background: blue;}
@@ -20,7 +20,6 @@
 
 .grid-container{
     display: grid;
-    grid-template-areas: auto;
     background-color: #8ed891;
     text-align: center;
     margin: -8px;
@@ -29,6 +28,7 @@
 
 body{
     background-color: #8ed891;
+    grid-column: 2/5;
 }
 
 .header-container{
@@ -97,33 +97,35 @@ body{
 .otsikko1{
     margin: 10px;
     margin-bottom: 0px;
+    margin-left: 40vw;
+    margin-right: 40vw;
 }
 
 .tarjous-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 10px;
     margin: 10px;
     margin-top: 0px;
-    background-color: aquamarine;
+    margin-left: 20px;
+    background-color: #ffffff;
 }
+
 .image2{
+    grid-column: 1/3;
     grid-row: 1/3;
-    padding: 10px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-bottom: -10px;
+    margin-bottom: -4px;
+    background-color: transparent;
+    
 }
 .text{
-    margin-left: 10px;
-    margin-bottom: 5px;
+    grid-column: 6/11;
+    grid-row: 1/2;
 }
 .link{
-    grid-column: 2/3;
+    grid-column: 6/11;
+    grid-row: 2/3;
     padding: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
 }
 
 .otsikko2{
@@ -159,9 +161,9 @@ body{
 }
 
 
-@media screen and (min-width: 736px)
+@media screen and (min-width: 751px)
 {
-  .imglogo1{
+  {
       
   }
 }
