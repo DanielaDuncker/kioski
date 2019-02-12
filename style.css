@@ -347,6 +347,9 @@ p{
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
 }
+.timage4{
+    margin-top: -15px;
+}
 .timage5 > span{
     text-align: right;
     font-size: 18px;
@@ -360,6 +363,9 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+}
+.timage5{
+    margin-top: -15px;
 }
 .timage6 > span{
     text-align: right;
@@ -375,6 +381,9 @@ p{
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
 }
+.timage6{
+    margin-top: -15px;
+}
 .timage7 > span{
     text-align: right;
     font-size: 18px;
@@ -389,6 +398,9 @@ p{
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
 }
+.timage7{
+    margin-top: -15px;
+}
 .timage8 > span{
     text-align: right;
     font-size: 18px;
@@ -402,6 +414,9 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+}
+.timage8{
+    margin-top: -15px;
 }
 .timage9 > span{
     text-align: right;
