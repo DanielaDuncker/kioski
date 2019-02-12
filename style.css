@@ -86,7 +86,7 @@ body{
 
 .otsikko1{
     margin: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
@@ -119,7 +119,7 @@ p{
 
 .otsikko2{
     margin: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
@@ -170,6 +170,8 @@ p{
     font-size: 18px;
     margin: 0px;
     padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #77b255;
     position: relative;
     bottom: 31px;
@@ -193,6 +195,8 @@ p{
     font-size: 18px;
     margin: 0px;
     padding: 7px;
+    padding-left: 28px;
+    padding-right: 24px;
     background-color: #77b255;
     position: relative;
     bottom: 31px;
@@ -216,6 +220,8 @@ p{
     font-size: 18px;
     margin: 0px;
     padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: #77b255;
     position: relative;
     bottom: 31px;
@@ -251,4 +257,175 @@ p{
     letter-spacing: 1px;
 }
 
-/* @media screen and (min-width: 751px) */
+
+
+/* Tästä alkaa toinen sivu! */
+
+.otsikko3{
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    padding: 10px;
+    background: #cc8ed8;
+}
+
+.tuotteet-container{
+    display: grid;
+    grid-template-areas: 
+    'timg1 timg2 timg3'
+    'timg4 timg5 timg6'
+    'timg7 timg8 timg9';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    width: 660px;
+    justify-self: center;
+    grid-gap: 20px;
+}
+
+
+.timg1, .timg2, .timg3, .timg4, .timg5, .timg6, .timg7, .timg8, .timg9{
+    width: 200px;
+    height: 250px;
+}
+
+.timage1 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage2 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage3 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage4 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage5 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage6 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage7 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage8 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage9 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.timage9{
+    margin-top: -15px;
+}
+.footer2{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: #545454;
+}
