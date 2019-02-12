@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 .logo1{background: #cc8ed8;}
@@ -11,31 +12,25 @@
 .image2{background: #ffffff;}
 .text{background: #ffffff;}
 .link{background: #77b255;}
-.otsikko2{background: red;}
-.image3{background: blue;}
-.image4{background: red;}
-.image5{background: blue;}
-.image6{background: red;}
-.footer{background: blue;}
+.otsikko2{background: #cc8ed8;}
+.footer{background-color: #545454;}
 
 .grid-container{
     display: grid;
     background-color: #8ed891;
     text-align: center;
-    margin: -8px;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
 }
 
 body{
     background-color: #8ed891;
-    grid-column: 2/5;
 }
 
 .header-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
     padding: 10px;
-    margin: -10px;
     background-color: #cc8ed8;
 }
 .logo1{
@@ -54,6 +49,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     grid-column: 4/5;
+    margin-top: 40px;
 }
 .logo2{
     grid-column: 5/6;
@@ -68,18 +64,18 @@ body{
 
 
 .nav{
-    margin-left: -10px;
-    margin-right: -10px;
     padding: 5px;
 }
 .nava1, .nava2{
     color: #77b255;
     text-decoration: none;
     padding: 20px;
+    letter-spacing: 1px;
 }
 
 .image1{
     margin: 10px;
+    padding-top: 15px;
 }
 .imgimage1{
     width: 1fr;
@@ -93,6 +89,7 @@ body{
     margin-bottom: 0px;
     margin-left: 40vw;
     margin-right: 40vw;
+    padding: 10px;
 }
 
 .tarjous-container{
@@ -105,6 +102,7 @@ body{
     width: 720px;
     background-color: #ffffff;
     justify-self: center;
+    margin-bottom: 20px;
 }
 p{
     font-size: x-large;
@@ -122,35 +120,135 @@ p{
 .otsikko2{
     margin: 10px;
     margin-bottom: 0px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    padding: 10px;
 }
 
 .uutuus-container{
     display: grid;
+    grid-template-areas: 
+    'img3 img4'
+    'img5 img6';
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 10px;
+    padding-bottom: 10px;
     padding-top: 0px;
+    width: 660px;
+    justify-self: center;
+    grid-gap: 20px;
 }
+
 .image3{
     text-align: right;
-    padding: 5px;
 }
-.image4{
-    text-align: left;
-    padding: 5px;
-}
-.image5{
+.image3 > span{
     text-align: right;
-    padding: 5px;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
 }
-.image6{
+.img3{
+    grid-area: img3;
+    height: 240px;
+    width: 320px;
+}
+
+.image4{
+    width: 320px;
     text-align: left;
-    padding: 5px;
+    height: 240px;
+}
+.image4 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.img4{    
+    grid-area: img4;
+    height: 240px;
+    width: 320px;
+}
+
+.image5{
+    width: 320px;
+    text-align: right;
+    margin-top: -25px;
+}
+.image5 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.img5{
+    grid-area: img5;
+    height: 240px;
+    width: 320px;
+}
+
+.image6{
+    width: 320px;
+    text-align: left;
+    margin-top: -25px;
+}
+.image6 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+}
+.img6{
+    grid-area: img6;
+    height: 240px;
+    width: 320px;
 }
 
 .footer{
-    padding: 10px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0;
 }
 
+.yhteystiedot{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.facebook{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
 
 /* @media screen and (min-width: 751px) */
