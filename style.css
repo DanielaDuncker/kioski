@@ -97,7 +97,7 @@ body{
     grid-template-areas:
     'image2 text';
     height: 540px;
-    width: 720px;
+    width: 700px;
     background-color: #ffffff;
     justify-self: center;
     margin-bottom: 20px;
@@ -475,4 +475,161 @@ body{
     margin-top: 30px;
     margin-bottom: 0;
     background-color: #545454;
+}
+
+
+/* Palvelut sivu alkaa */
+
+
+.palvelut-container{
+    display: grid;
+    grid-template-areas: 
+    'timg1 timg2 timg3';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    width: 660px;
+    justify-self: center;
+    grid-gap: 20px;
+}
+.pimg1, .pimg2 .pimg3, .pimg4{
+    width: 200px;
+    height: 250px;
+}
+
+.pimage1 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
+}
+.pimage2 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
+}
+.pimage3 > span{
+    text-align: right;
+    font-size: 18px;
+    margin: 0px;
+    padding: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #77b255;
+    position: relative;
+    bottom: 31px;
+    font-style: italic;
+    color: rgb(240, 255, 243);
+    letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+/* Tarjoukset sivu alkaa */
+
+
+
+.tarjous-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 525px;
+    grid-template-areas:
+    'jimage1 text';
+    height: 525px;
+    width: 700px;
+    background-color: #ffffff;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+.jimage1{
+    grid-area: jimage1;
+    width: 350px;
+    height: 525px;
+}
+.text{
+    grid-area: text;
+    background: #ffffff;
+}
+p{
+    font-size: x-large;
+    padding: 100px;
+    justify-self: center;
+    margin-top: 40px;
+}
+
+.tarjous-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 525px;
+    grid-template-areas:
+    'text jimage2';
+    height: 525px;
+    width: 700px;
+    background-color: #ffffff;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+.jimage2{
+    grid-area: jimage2;
+    width: 350px;
+    height: 525px;
+}
+.text{
+    grid-area: text;
+    background: #ffffff;
+}
+p{
+    font-size: x-large;
+    padding: 100px;
+    justify-self: center;
+    margin-bottom: -100px;
+    margin-top: 40px;
+}
+
+.tarjous-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 525px;
+    grid-template-areas:
+    'jimage3 text';
+    height: 525px;
+    width: 700px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+.jimage3{
+    grid-area: jimage3;
+    width: 350px;
+    height: 525px;
+}
+.text{
+    grid-area: text;
+    background: #ffffff;
+}
+p{
+    font-size: x-large;
+    padding: 100px;
+    justify-self: center;
+    margin-top: 40px;
 }
