@@ -3,28 +3,15 @@
     margin: 0px;
 }
 
-.logo1{background: #cc8ed8;}
-.header{background: #cc8ed8;}
-.logo2{background: #cc8ed8;}
-.nav{background: #545454;}
-.image1{background: #8ed891;}
-.otsikko1{background: #cc8ed8;}
-.image2{background: #ffffff;}
-.text{background: #ffffff;}
-.link{background: #77b255;}
-.otsikko2{background: #cc8ed8;}
-.footer{background-color: #545454;}
+body{
+    background-color: #8ed891;
+}
 
 .grid-container{
     display: grid;
-    background-color: #8ed891;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0;
-}
-
-body{
-    background-color: #8ed891;
 }
 
 .header-container{
@@ -32,10 +19,12 @@ body{
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
     padding: 10px;
     background-color: #cc8ed8;
+    background: linear-gradient(35deg, rgb(172, 233, 190), rgb(158, 96, 167));
 }
 .logo1{
     grid-column: 3/4;
     padding-right: 20px;
+    background: transparent;
 }
 .imglogo1{
     width: 100px;
@@ -49,6 +38,7 @@ body{
     font-size: 30px;
     grid-column: 4/5;
     margin-top: 40px;
+    background: transparent;
 }
 .olink{
     text-decoration: none;
@@ -57,6 +47,7 @@ body{
 .logo2{
     grid-column: 5/6;
     padding-left: 20px;
+    background: transparent;
 }
 .imglogo2{
     width: 100px;
@@ -68,6 +59,7 @@ body{
 
 .nav{
     padding: 5px;
+    background: #545454;
 }
 .nava1, .nava2{
     color: #77b255;
@@ -93,6 +85,9 @@ body{
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
+    border-radius: 15px;
+    background: #cc8ed8;
+    color: rgb(50, 51, 50);
 }
 
 .tarjous-container{
@@ -107,6 +102,9 @@ body{
     justify-self: center;
     margin-bottom: 20px;
 }
+.text{
+    background: #ffffff;
+}
 p{
     font-size: x-large;
     padding: 100px;
@@ -118,6 +116,13 @@ p{
     padding: 20px;
     margin: 100px;
     border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    background: #77b255;
+}
+.alink{
+    text-decoration: none;
+    color: black;
 }
 
 .otsikko2{
@@ -126,6 +131,9 @@ p{
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
+    border-radius: 15px;    
+    background: #cc8ed8;
+    color: rgb(50, 51, 50);
 }
 
 .uutuus-container{
@@ -156,6 +164,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 0px 0px 0px;
 }
 .img3{
     grid-area: img3;
@@ -181,6 +190,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 0px 15px 0px 0px;
 }
 .img4{    
     grid-area: img4;
@@ -206,6 +216,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 0px 0px 0px;
 }
 .img5{
     grid-area: img5;
@@ -231,6 +242,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 0px 15px 0px 0px;
 }
 .img6{
     grid-area: img6;
@@ -244,6 +256,7 @@ p{
     padding-bottom: 20px;
     text-align: center;
     margin-bottom: 0;
+    background-color: #545454;
 }
 
 .yhteystiedot{
@@ -264,6 +277,11 @@ p{
 
 /* Tästä alkaa toinen sivu! */
 
+
+body{
+    background: linear-gradient(180deg, #8ed891, #8ed891, #78ad7a, #528154, #545454, #545454);
+}
+
 .otsikko3{
     margin: 30px;
     margin-bottom: 10px;
@@ -271,6 +289,8 @@ p{
     margin-right: 40vw;
     padding: 10px;
     background: #cc8ed8;
+    border-radius: 15px;
+    color: rgb(50, 51, 50);
 }
 
 .tuotteet-container{
@@ -307,6 +327,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage2 > span{
     text-align: right;
@@ -321,6 +342,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage3 > span{
     text-align: right;
@@ -335,6 +357,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage4 > span{
     text-align: right;
@@ -349,6 +372,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage4{
     margin-top: -15px;
@@ -366,6 +390,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage5{
     margin-top: -15px;
@@ -383,6 +408,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage6{
     margin-top: -15px;
@@ -400,6 +426,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage7{
     margin-top: -30px;
@@ -417,6 +444,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage8{
     margin-top: -30px;
@@ -434,6 +462,7 @@ p{
     font-style: italic;
     color: rgb(240, 255, 243);
     letter-spacing: 1px;
+    border-radius: 15px 15px 0px 0px;
 }
 .timage9{
     margin-top: -30px;
