@@ -81,7 +81,7 @@ body{
 
 .otsikko1{
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
@@ -127,7 +127,7 @@ p{
 
 .otsikko2{
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
@@ -284,7 +284,7 @@ body{
 
 .otsikko3{
     margin: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 40vw;
     margin-right: 40vw;
     padding: 10px;
@@ -549,87 +549,136 @@ body{
 
 
 
+.otsikko4{
+    margin: 30px;
+    margin-bottom: 15px;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(200, 123, 212);
+    color: rgb(50, 51, 50);
+}
+
+.t-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'tarjous-container1'
+    'tarjous-container2'
+    'tarjous-container3';
+    width: 650px;
+    justify-self: center;
+}
+
 .tarjous-container1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 525px;
+    grid-template-rows: 530px;
     grid-template-areas:
     'jimage1 text';
-    height: 525px;
-    width: 700px;
+    height: 530px;
+    width: 650px;
     background-color: #ffffff;
     justify-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .jimage1{
     grid-area: jimage1;
-    width: 350px;
-    height: 525px;
+    height: 530px;
+    width: 325px;
 }
-.text{
+.text1{
     grid-area: text;
     background: #ffffff;
+    margin-top: 35px;
 }
 p{
     font-size: x-large;
     padding: 100px;
     justify-self: center;
-    margin-top: 40px;
 }
 
 .tarjous-container2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 525px;
+    grid-template-rows: 530px;
     grid-template-areas:
     'text jimage2';
-    height: 525px;
-    width: 700px;
+    height: 530px;
+    width: 650px;
     background-color: #ffffff;
     justify-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .jimage2{
     grid-area: jimage2;
-    width: 350px;
-    height: 525px;
+    height: 530px;
+    width: 325px;
 }
-.text{
+.text2{
     grid-area: text;
     background: #ffffff;
+    width: 325px;
+    margin-top: 50px;
+    padding-top: 35px;
 }
 p{
     font-size: x-large;
     padding: 100px;
     justify-self: center;
-    margin-bottom: -100px;
-    margin-top: 40px;
 }
 
 .tarjous-container3{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 525px;
+    grid-template-rows: 530px;
     grid-template-areas:
     'jimage3 text';
-    height: 525px;
-    width: 700px;
+    height: 530px;
+    width: 650px;
     background-color: #ffffff;
-    margin-bottom: 20px;
     justify-self: center;
+    margin-bottom: 40px;
 }
 .jimage3{
     grid-area: jimage3;
-    width: 350px;
-    height: 525px;
+    height: 530px;
+    width: 325px;
 }
-.text{
+.text3{
     grid-area: text;
     background: #ffffff;
+    width: 325px;
+    margin-top: 40px;
 }
 p{
     font-size: x-large;
     padding: 100px;
     justify-self: center;
     margin-top: 40px;
+}
+
+
+
+
+/* Yhteystiedot sivu alkaaaaaa */
+
+
+
+.yhteystieto-box{
+    background-color: rgb(240, 255, 243);
+    justify-self: center;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 55px;
+    border-radius: 20px;
+}
+.yhteystieto-box > p{
+    font-size: 18px;
+    padding: 0px;
+    letter-spacing: 0.5px;
 }
