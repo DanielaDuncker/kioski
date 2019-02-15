@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #8ed891;
+    background: linear-gradient(180deg, #77b255, #77b255, #78ad7b, #78ad7a, #528154, #545454, #545454);
 }
 
 .grid-container{
@@ -275,12 +275,12 @@ p{
 
 
 
+
+
 /* Tästä alkaa toinen sivu! */
 
 
-body{
-    background: linear-gradient(180deg, #77b255, #77b255, #78ad7b, #78ad7a, #528154, #545454, #545454);
-}
+
 
 .otsikko3{
     margin: 30px;
@@ -681,4 +681,23 @@ p{
     font-size: 18px;
     padding: 0px;
     letter-spacing: 0.5px;
+}
+
+
+/* Linkeille shittii */
+
+
+a:hover {
+    color: rgb(10, 134, 10);
+}
+
+.link > a:hover {
+    color: rgb(240, 255, 243);
+}
+.link > a:active {
+    color: #ff5353;
+}
+
+a:active {
+    color: #ff5353;
 }
