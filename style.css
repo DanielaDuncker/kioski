@@ -690,6 +690,9 @@ p{
 a:hover {
     color: rgb(10, 134, 10);
 }
+a:active {
+    color: #ff5353;
+}
 
 .link > a:hover {
     color: rgb(240, 255, 243);
@@ -698,6 +701,9 @@ a:hover {
     color: #ff5353;
 }
 
-a:active {
-    color: #ff5353;
+.header > a:hover {
+    color: #dd2e44;
+}
+.header > a:active {
+    color: #dd2e44;
 }
